@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pertemuan 4 - Javascript</title>
+</head>
+<body>
+    <!-- <h1 id="tes">Pertemuan 4</h1>
+    <h1 id="tes1">awok</h1>
+    <h2 id="tes2">mulyono</h2>
+    <h2>nilai di bawah:</h2>
+    <h2 id="nilai">20</h2>
+    <h2 id="hasil">hasil</h2> -->
+
+    <h3>umur saya : <span id="umur"> 80</span></h3>
+    <h3>Hasil : <span id="seleksi">..</span></h3>
+
+
+
+    <script>
+        // let x = 10
+        // let y = 20
+
+        // document.write ("Ini tekxt gwej")
+        // document.write("<br>")
+        // document.write(x + y)
+
+        // document.getElementById('tes').innerHTML = x * y
+        // document.getElementById('tes').style.color= 'blue'
+        // document.getElementById('tes1').style.color='purple'
+        // document.getElementById('tes2').style.color='gray'
+
+        
+
+        let umur = document.getElementById('umur')
+        let seleksi = document.getElementById('seleksi')
+
+    
+        
+        
+        if(umur.innerHTML >= 80) {
+
+            seleksi.innerHTML = 'Lansia'
+
+
+        }
+        else if(umur.innerHTML < 80 && umur.innerHTML >= 40) {
+
+            seleksi.innerHTML = 'orang tua'
+            
+        }
+        else if(umur.innerHTML <40 && umur.innerHTML>=20) {
+
+            seleksi.innerHTML = 'anak muda'
+            
+        }
+        else {
+            seleksi.innerHTML = 'anak-anak'
+        }
+
+
+
+
+
+
+
+    </script>
+    
+
+
+
+
+
+
+
+</body>
+</html>

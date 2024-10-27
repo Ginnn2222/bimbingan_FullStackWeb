@@ -1,0 +1,66 @@
+body{
+    background-image: url('../img/bag.jpg');
+}
+
+.container{
+    background-color: white;
+    width: 800px;
+    margin: 0 auto;
+    border: 2px solid black;
+}
+.header{
+    padding: 20px;
+}
+.header ul {
+    display: flex;
+    list-style: none;
+    margin-left: -40px;
+
+}
+.header ul li {
+    margin-right: 30px;
+}
+
+.header ul li a{
+    text-decoration: none;
+    color: #212121;
+    font-size: 20px;
+    padding: 8px;
+    border-radius: 8px;
+}
+
+.header ul li a:hover {
+    background-color: gray;
+    color: white;
+    transition: 0.5s;
+
+}
+
+.hero {
+    background-color: blue;
+    height: 250px;
+    background-image: url('../img/Marsha.jpg');
+    background-size: cover;
+    background-position: 0 -85px;
+    border-top: 2px solid black;
+    border-bottom:2px solid gray;
+}
+
+.article{
+    margin: 20px;
+}
+
+.judul p {
+    margin-top: -15px;
+    font-size: 14px;
+}
+.deskripsi{
+    text-align: justify;
+}
+.footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 3px;
+    letter-spacing: 2px;
+}
